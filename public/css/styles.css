@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+    
+}
+.text2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: 230px;
+    overflow-wrap: break-word;
+    width: 300px;
+    line-height: 1.5rem;
+    
+   
+    
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.middle{
+    border-radius: 0;
+    margin-top: -1px;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+   
+    
+  }
+
+  .box{
+      width: 750px;
+      height: 720px;
+      background-color: #FFB740;
+  }
+  .btn{
+      background-color: #FFB740;
+      color: white;
+  }
+  svg{
+      
+      height:40%;
+      width: 30%;
+
+    }
+    .svg1 , .svg2, .svg3{
+        position: absolute;
+    }
+   @media (max-width:768px){
+     .box{
+       width:0px;
+       height:0px;
+     }
+     .svg1,.svg2,.svg3{
+       visibility: hidden;
+     }
+   }
+   @media(max-width:1200px){
+     .text2{
+       visibility: hidden;
+     }
+     
+   }
